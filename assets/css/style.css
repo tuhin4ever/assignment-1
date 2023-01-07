@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-warning {
+    color:
+        #005FAC;
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+/* header section */
+header {
+    width: 1625px;
+    height: 825px;
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* content text */
+.content {
+    padding-top: 217px;
+    padding-right: 230px;
+    text-align: right;
+    color: #fff;
+    float: right;
+
+}
+
+.content h1 {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    width: 525px;
+    padding-bottom: 20px;
+
+}
+
+.content p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 495px;
+    margin-left: 32px;
+    padding-bottom: 30px;
+}
+
+/* about section */
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    float: left;
+
+}
+
+.about-text {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 41px;
+    width: 250px;
+    padding-bottom: 25px;
+}
+
+.section-description {
+    width: 447px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 26px;
+    padding-bottom: 17px;
+    color: #444343;
+
+}
+
+.more-item .fa-check {
+    color: #16D887;
+}
+
+.more-item {
+    color: #444343;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+/* my plan */
+.info-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 35px;
+    padding-top: 50px;
+    font-family: 'Work Sans';
+
+}
+
+.skill img {
+    padding: 24px 57px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 27px;
+    padding-bottom: 16px;
+}
+
+.skill-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* image section */
+.img-section {
+    height: 300px;
+    width: 1140px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
+    border-radius: 8px;
+    margin: 130px 230px;
+}
+
+.keep-positive {
+    padding: 59px 64px;
+}
+
+.keep-positive h2 {
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #fff;
+    width: 459px;
+    padding-bottom: 30px;
+}
+
+/* footer section */
+footer {
+    height: 808px;
+    background-color: black;
+    color: white;
+}
+
+.footer-section {
+    float: left;
+    padding: 200px 250px;
+    height: 577px;
+    width: 485px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+footer h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    padding-bottom: 30px;
+}
+
+.footer-section p {
+    width: 485px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.footer-section h4 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 50px;
+
+}
+
+.footer-section img {
+    margin-right: 18px;
+}
+
+
+
+.footer-form {
+    float: left;
+    padding-top: 230px;
+    width: 325px;
+    height: 577px;
+}
+
+.footer-form h3 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    padding-bottom: 30px;
+}
+
+.footer-form input {
+    width: 325px;
+    height: 64px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 21px;
+}
+
+.btn-primary {
+    margin-top: 16px;
+    width: 170.11px;
+    height: 64px;
+    left: 1046px;
+    top: 2921.96px;
+    background: #005FAC;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+/* END CSS */
